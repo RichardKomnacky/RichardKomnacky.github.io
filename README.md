@@ -6,6 +6,13 @@ Link to **[demo](http://www.github.io)** site for preview.
 ...
 ## Implementation
 ...
+<nav>
+            <ul>
+                <li><a href="#1header">Header</a></li>
+                <li><a href="#2main">Main</a></li>
+                <li><a href="#3footer">Footer</a></li>
+            </ul>
+        </nav>
 ## Usage
 ...
 ## Components
