@@ -1,0 +1,338 @@
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./Poppins/Poppins-Regular.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: upper-alpha;
+}
+
+li {
+    padding: 0px 30px;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 48%;
+}
+
+
+footer {
+    display: flex;
+    flex-basis: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+h1, h2, h3 {
+    font-weight: 800;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-weight: 400;
+    padding: 10px;
+    margin: 0;
+}
+
+abbr {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: grey;
+    transition: 0.8s;
+}
+
+h1 a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+figure {
+    width: max-content;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    margin: 0;
+}
+
+figcaption {
+    padding: 0px 20px;
+    margin: 0;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 13px;
+}
+
+
+footer h3 {
+    text-align: center;
+}
+
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer li {
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 1024px) {
+
+    header {
+        padding: 5px;
+    }
+
+    ul {
+        padding: 0px 10px;
+    }
+
+    li {
+        padding: 0px 15px;    
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    section {
+        flex-wrap: wrap;
+    }
+
+    article {
+        width: 100%;
+        justify-content: center;
+    }
+
+    h1, h2, h3 {
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    figure {
+        text-align: center;
+        margin: auto;
+    }
+
+    img {
+        text-align: center;
+        width: 40vw;
+        height: auto;
+    }
+
+}
+
+@media all and (max-width: 950px) {
+
+    img {
+        width: 35vw;
+    }
+}
+
+@media all and (max-width: 700px) {
+
+    img {
+        width: 30vw;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    img {
+        width: 70vw;
+    }
+}
+
+@media all and (max-width: 360px) {
+
+    ul {
+        padding: 0px 4px;
+    }
+
+    li {
+        padding: 0px 8px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    img {
+        padding: 5px;
+        width: 70vw;
+    }
+
+    figure {
+        padding: 2px;
+    }
+
+    figcaption {
+        padding: 0 4px;
+        font-size: 10px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    h1, h2, h3 {
+        padding: 0px 5px;
+    }
+}
+
+@media print {
+
+    body {
+        width: 100%;
+    }
+
+    figure, ol, ul, img {
+        page-break-inside: avoid;
+        display: block;
+
+    }
+    
+    
+}
