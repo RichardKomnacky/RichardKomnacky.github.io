@@ -18,7 +18,7 @@ Link to **[demo](http://www.github.io)** site for preview.
 ## Usage
 ...
 ## Components
-###Body
+### Body
 ```
 <body>
     <header id="1header"></header>
