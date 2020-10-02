@@ -26,6 +26,23 @@ Link to **[demo](http://www.github.io)** site for preview.
     <footer id="3footer"></footer>
 </body>
 ```
-### First
-### Second
+### Header
+```
+<h1><a href="./index.html">Toto je H1</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#1header">Header</a></li>
+                <li><a href="#2main">Main</a></li>
+                <li><a href="#3footer">Footer</a></li>
+            </ul>
+        </nav>
+```
+### Main
+```
+
+```
+### Footer
+```
+
+```
 
