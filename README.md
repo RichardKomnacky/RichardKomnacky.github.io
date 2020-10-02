@@ -12,6 +12,16 @@ Link to **[demo](http://www.github.io)** site for preview.
     <link rel="stylesheet" href="typography.css">
 </head>
 ```
+### Used font
+https://fonts.google.com/specimen/Poppins?query=popp#standard-styles
+```html
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./Poppins/Poppins-Regular.ttf");
+}
+```
 ## Usage
 Download typography.css
 
