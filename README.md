@@ -14,7 +14,7 @@ Link to **[demo](http://www.github.io)** site for preview.
 ```
 ### Used font
 https://fonts.google.com/specimen/Poppins?query=popp#standard-styles
-```html
+```css
 @font-face {
     font-family: "Poppins";
     font-style: normal;
