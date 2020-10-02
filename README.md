@@ -14,7 +14,7 @@ Link to **[demo](http://www.github.io)** site for preview.
     <title>Normalize</title>
     <link rel="stylesheet" href="typography.css">
 </head>
-
+```
 ## Usage
 ...
 ## Components
