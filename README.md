@@ -16,6 +16,18 @@ Link to **[demo](http://www.github.io)** site for preview.
 </head>
 ```
 ## Usage
+Download typography.css
+
+This css changes styles of:
+* html, body
+* header, main, footer
+* nav, ul, ol, li
+* section, article
+* h1, h2, h3
+* p, abbr. strong
+* a
+* figure, figcaption, img
+
 ...
 ## Components
 ### Body
