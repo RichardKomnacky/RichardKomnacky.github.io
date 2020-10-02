@@ -19,15 +19,15 @@ Link to **[demo](http://www.github.io)** site for preview.
 ...
 ## Components
 ### Body
-```
+```html
 <body>
     <header id="1header"></header>
     <main id="2main"></main>
     <footer id="3footer"></footer>
 </body>
 ```
-### Header
-```
+### Header with navigation
+```html
 <header id="1header">
     <h1><a href="./index.html">Toto je H1</a></h1>
     <nav>
