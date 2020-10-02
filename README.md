@@ -1,30 +1,23 @@
 # Typography CSS library
-**Author:** *Richard Komnacky*
+**Author:** *Richard Komňacký*
 ## Demo site
 Link to **[demo](http://www.github.io)** site for preview.
 ## Dependecies
 ...
+
+
 ## Implementation
-...
-<nav>
-            <ul>
-                <li><a href="#1header">Header</a></li>
-                <li><a href="#2main">Main</a></li>
-                <li><a href="#3footer">Footer</a></li>
-            </ul>
-        </nav>
+```
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normalize</title>
+    <link rel="stylesheet" href="typography.css">
+</head>
+
 ## Usage
 ...
 ## Components
 ### First
 ### Second
 
-## Example
-Navigation
-<nav>
-            <ul>
-                <li><a href="#1header">Header</a></li>
-                <li><a href="#2main">Main</a></li>
-                <li><a href="#3footer">Footer</a></li>
-            </ul>
-        </nav>
