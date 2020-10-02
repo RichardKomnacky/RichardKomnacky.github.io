@@ -28,7 +28,8 @@ Link to **[demo](http://www.github.io)** site for preview.
 ```
 ### Header
 ```
-<h1><a href="./index.html">Toto je H1</a></h1>
+<header id="1header">
+        <h1><a href="./index.html">Toto je H1</a></h1>
         <nav>
             <ul>
                 <li><a href="#1header">Header</a></li>
@@ -36,6 +37,7 @@ Link to **[demo](http://www.github.io)** site for preview.
                 <li><a href="#3footer">Footer</a></li>
             </ul>
         </nav>
+    </header>
 ```
 ### Main
 ```
