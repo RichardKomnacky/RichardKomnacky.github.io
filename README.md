@@ -4,7 +4,7 @@
 Link to **[demo](http://www.github.io)** site for preview.
 
 ## Implementation
-```
+```html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
