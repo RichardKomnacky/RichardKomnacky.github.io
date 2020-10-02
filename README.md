@@ -28,7 +28,6 @@ This css changes styles of:
 * a
 * figure, figcaption, img
 
-...
 ## Components
 ### Body
 ```html
