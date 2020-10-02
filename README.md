@@ -39,6 +39,25 @@ Link to **[demo](http://www.github.io)** site for preview.
     </nav>
 </header>
 ```
+### Figure
+```html
+<figure>
+    <img src="./Images/Blue.jpg" alt="Blue">
+    <figcaption>Popisek: Modrá barva</figcaption>
+</figure>
+```
+### Article
+```html
+<article>
+     <h3>Toto je H3</h3>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quae adipisci nihil est possimus
+         debitis voluptas tempore et, sit suscipit, rerum, placeat illo qui voluptatum vero mollitia. Ipsum,
+         earum eaque.</p>
+</article>
+```
+
+
+
 ### Main
 ```
 
