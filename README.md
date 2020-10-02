@@ -66,15 +66,15 @@ This css changes styles of:
          earum eaque.</p>
 </article>
 ```
-
-
-
-### Main
-```
-
-```
 ### Footer
-```
-
+```html
+<footer id="3footer">
+    <h3>Footer</h3>
+    <ul>
+      <li>Richard Komňacký</li>
+      <li>richard.komnacky@pslib.cz</li>
+      <li>02.10.2020</li>
+    </ul>
+</footer>
 ```
 
