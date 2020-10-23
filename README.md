@@ -1,7 +1,7 @@
 # Typography CSS library
 **Author:** *Richard Komňacký*
 ## Demo site
-Link to **[demo](https://pslib-cz.github.io/2020l4web-typography-css-library-RichardKomnacky/)** site for preview.
+Link to **[demo](https://pslib-cz.github.io/202009web-typography-css-library-RichardKomnacky/)** site for preview.
 
 ## Implementation
 ```html
